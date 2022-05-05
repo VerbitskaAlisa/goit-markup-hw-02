@@ -1,0 +1,97 @@
+/* Цвет фона #FFFFFF  */
+/* Вторичный цвет фона #2F303A */
+/* Цвет фона середины #F5F4FA */
+/* Основной цвет текста #757575 */
+/* Цвет загаловков #212121 */
+/* Акцент #2196F3 */
+.list {
+    list-style: none;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+/* Header */
+.logo {
+    color: #212121;
+}
+.logo .first-word {
+    color: #2196F3;
+}
+
+/* site-nav */
+
+.site-nav a {
+    color: #212121;
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
+    color: #2196F3;
+}
+
+/* contacts */
+
+.contacts a {
+    color: #757575;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: #2196F3;
+}
+
+/* секция герой */
+
+.section-hero {
+    background-color: #2F303A;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* секция особенности */
+
+.title {
+    color: #212121;
+}
+
+/* секция о работе */
+
+.main-title {
+    color: #212121;
+}
+
+/* секция команды */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-list li {
+    background-color: #FFFFFF;
+}
+
+/* секция подвал */
+ footer {
+     background-color: #2F303A;
+ }
+.contacts-list .fact-address {
+    color: #FFFFFF;
+}
+
+.contacts-list .address {
+    color: #FFFFFF;
+}
+
+ 
+
+ 
