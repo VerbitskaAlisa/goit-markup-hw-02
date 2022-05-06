@@ -92,6 +92,7 @@ h1 {
 button {
     background-color: var(--accent-text);
     color: var(--bgc);
+    cursor: pointer;
 
     font-family: inherit;
     font-weight: 700;
