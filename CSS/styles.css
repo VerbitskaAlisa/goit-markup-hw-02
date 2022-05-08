@@ -23,12 +23,14 @@ body {
     color: var(--text-color);
 
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     letter-spacing: 0.03em;
 }
 
 /* Logo */
 .logo {
     color: var(--header-color);
+    text-decoration: none;
 
     font-family: Raleway,sans-serif;
     font-weight: 700;
@@ -44,9 +46,9 @@ body {
 
 .site-nav a {
     color: var(--header-color);
+    text-decoration: none;
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
@@ -56,13 +58,20 @@ body {
     color: var(--accent-text);
 }
 
+.site-nav .portfolio-link {
+    color: var(--accent-text);
+}
+
+.site-nav .studio-link {
+    color: var(--accent-text);
+}
 /* contacts */
 
 .contacts a {
     color: var(--text-color);
+    text-decoration: none;
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -110,8 +119,7 @@ button {
     color: var(--header-color);
 
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
@@ -129,7 +137,6 @@ button {
 .list p {
 
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
 }
 
@@ -144,17 +151,20 @@ button {
 }
 
 .team-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+    color: var(--header-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .team p {
+    font-size: 16px;
+    line-height: 1.19;
+}
 
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
+.project-link {
+    text-decoration: none;
 }
 
 /* секция подвал */
@@ -163,30 +173,33 @@ line-height: 1.19;
  }
 
  .footer-logo {
-     color: #FFFFFF;
+     color: var(--bgc);
  }
 
 .contacts-list {
 
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
 }
 
 .contacts-list .fact-address {
     color: var(--bgc);
+    font-style: normal;
 }
 
 .contacts-list .address {
     color: rgba(255, 255, 255, 0.6);;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .contacts-list .address:hover,
 .contacts-list .address:focus {
-    color: #2196F3;
+    color: var(--accent-text);
 }
 
-/* Страница проекти */
+/* Страница портфолио */
+
  
 /* Фильтры */
 
@@ -201,7 +214,8 @@ li button {
 
 li button:hover,
 li button:focus {
-    background-color: #2196F3;
+    background-color: var(--accent-text);
+    color: var(--bgc);
 }
 
 /* Список проектов */
